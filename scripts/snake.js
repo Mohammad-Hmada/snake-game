@@ -77,7 +77,7 @@ function Arrow(dir) {
 if (navigator.userAgent.includes('Android')) {
     const div = document.createElement('div');
     div.innerHTML = `
-    <div style="margin: 0px 40px;" class="arrow">&uarr;</div>
+    <div style="margin: 0px 80px;" class="arrow">&uarr;</div>
     <div class="arrow">&larr;</div>
     <div class="arrow">&darr;</div>
     <div class="arrow">&rarr;</div>
