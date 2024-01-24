@@ -27,18 +27,19 @@ body{
     border: 0.25vmin solid black;
 }
 .arrow {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     display: inline-block;
     background: cadetblue;
     float: left;
     text-align: center;
-    line-height: 40px;
+    line-height: 80px;
 }
 .arrowdiv{
-    position: absolute;
-    left:10px;
-    bottom:10px;
-    width: 120px;
-    height: 80px;
+position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 10px;
+    width: 240px;
+    height: 160px;
 }
