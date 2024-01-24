@@ -26,3 +26,19 @@ body{
     background-color: rgb(255, 115, 0);
     border: 0.25vmin solid black;
 }
+.arrow {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: cadetblue;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.arrowdiv{
+    position: absolute;
+    left:10px;
+    bottom:10px;
+    width: 120px;
+    height: 80px;
+}
