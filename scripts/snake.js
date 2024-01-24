@@ -89,10 +89,10 @@ if (navigator.userAgent.includes('Android')) {
         Arrow('ArrowUp')
     }
     c[1].onclick = () => {
-        Arrow('ArrowDown')
+        Arrow('ArrowLeft')
     }
     c[2].onclick = () => {
-        Arrow('ArrowLeft')
+        Arrow('ArrowDown')
     }
     c[3].onclick = () => {
         Arrow('ArrowRight')
