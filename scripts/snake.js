@@ -31,6 +31,18 @@ window.addEventListener('keydown', (k) => {
 })
 export function ES(ER) {
     news += ER;
+    if(document.getElementById("score")){
+        const div = document.createElement("div");
+        div.id = "score";
+        div.style=`
+        position: absolute;
+        top:20px;
+        left: 20px;
+        padding:10px;
+        background: green; 
+        `;
+    }
+    document.getElementById("score").innerHTML = "score: " + news;
 }
 export function onSnake(pos, { i = false } = {}) {
     return Snake_body.some((seg, index) => {
